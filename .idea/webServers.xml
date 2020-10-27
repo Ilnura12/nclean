@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dd193d65-3bd8-4b3b-886e-35f5e54c5c01" name="cimm">
+        <fileTransfer accessType="SFTP" host="purple" port="22" sshConfigId="34b6b50f-8fa8-41c3-8eb4-e42c253898c5" sshConfig="purple" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5e7f2fe0-5bdf-4662-a6ab-c6258f9d59f7" name="purple">
+        <fileTransfer rootFolder="/home/zankov" accessType="SFTP" host="purple" port="22" sshConfigId="34b6b50f-8fa8-41c3-8eb4-e42c253898c5" sshConfig="purple" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8b5cf41c-091e-4027-be02-480a8b46c89d" name="deep">
+        <fileTransfer rootFolder="/home/zankov" accessType="SFTP" host="deep" port="22" sshConfigId="26f94ee8-4ed9-4de6-8c5f-9ccf41492f73" sshConfig="deep" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

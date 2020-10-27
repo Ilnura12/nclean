@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="cimm.site" id="9c3de5ad-88f9-4a7c-891b-0d668890b728" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="cimm" nameFormat="CUSTOM" username="zankov">
+        <option name="customName" value="cimm" />
+      </sshConfig>
+      <sshConfig host="purple" id="34b6b50f-8fa8-41c3-8eb4-e42c253898c5" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="purple" nameFormat="CUSTOM" username="zankov">
+        <option name="customName" value="purple" />
+      </sshConfig>
+      <sshConfig host="deep" id="26f94ee8-4ed9-4de6-8c5f-9ccf41492f73" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="deep" nameFormat="CUSTOM" username="zankov">
+        <option name="customName" value="deep" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
